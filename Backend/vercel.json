@@ -6,12 +6,6 @@
       "use": "@vercel/python"
     }
   ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "app.py"
-    }
-  ],
   "env": {
     "OPENROUTER_API_KEY": "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"
   },
