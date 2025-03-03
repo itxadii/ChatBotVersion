@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 app = Flask(__name__)
 CORS(app)
 
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "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"
 
 def get_temperature(response_mode):
     """Get temperature based on response mode."""
